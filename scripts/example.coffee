@@ -12,6 +12,9 @@ module.exports = (robot) ->
 
   robot.hear /e o hots/i, (res) ->
     res.send "HOTS nem jogo é!"
+    
+  robot.hear /.mundo_voltas/i (res) ->
+    res.send "https://imgur.com/a/qWeiq"
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
